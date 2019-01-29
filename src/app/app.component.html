@@ -21,3 +21,7 @@
 <router-outlet></router-outlet>-->
 <mat-toolbar color="primary"><span>Siam Palace</span></mat-toolbar>
 <app-menu></app-menu>
+
+<!-- Primera Prueba Binding -->
+<button (click)="onClickMe('Hola que tal?')">Click Me!</button>
+<p><button (click)="onClickMe2($event)">Click Me Too! (I count clicks)</button>{{clickMess}}</p>
